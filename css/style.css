@@ -1,0 +1,45 @@
+.navbar {
+    background-color: black;
+}
+body {
+    background-color: black !important;
+}
+.filme-principal{
+    color: white;
+    background-image: url("/img/predestinado-background.png");
+    height: 100px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-repeat:round;
+    padding-bottom: 40%;
+}
+
+.titulo{
+        padding-top: 30%;
+        margin-top: 15%;
+        font-size: 40px;
+}
+
+.descricao {
+    margin-top: 10px;
+    margin-bottom: 40px; 
+    
+}
+
+.filme-principal.container {
+    width: 70%;
+}
+
+.box-filmes{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+}
+
+.carrosel{
+    padding-top: 10%;
+}
